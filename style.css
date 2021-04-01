@@ -1,0 +1,351 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+section{
+    min-height: 100vh;
+}
+.header{
+    padding-top: 44px;
+    height: 100vh;
+    background: url(img/bg.png) center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    
+}
+.menu a{
+margin-right: 100px;
+color: #ffffff;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+font-style: normal;
+letter-spacing: 2.8px;
+line-height: normal;
+text-decoration: none;
+}
+.menu a:last-child{
+    margin-right:0 ;
+}
+.header-text {
+text-align: center;
+margin-top: 250px;
+}
+.header-text h1 {
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 700;
+}
+.header p {
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 4.2px;
+}
+.header button{
+    padding: 20px 80px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    margin-top: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    cursor: pointer;
+    transition: ease-in .25s all;
+}
+.header button:hover{
+    background-color: white;
+    color:black;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-text span{
+color: #c4c4c4;
+font-size: 22px;
+font-weight: 500;
+letter-spacing: 3.08px;
+}
+.about-text h2{
+color: #000000;
+font-size: 30px;
+font-weight: 500;
+text-transform: uppercase;
+letter-spacing: 4.2px;
+margin-top: 32px;
+margin-bottom: 54px;
+}
+.about-text p{
+    margin-bottom: 54px;
+    color: #5b5b5c;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px;
+}
+.about-text button{
+    padding: 20px 80px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    margin-top: 22px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    cursor: pointer;
+    transition: ease-in .25s all;
+}
+.about-text button:hover{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+.photos{
+    text-align: center;
+}
+.photos h2{
+    color: #000000;
+font-size: 32px;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 7.2px;
+margin-bottom: 36px;
+margin-top: 161px;
+}
+.photos p{
+    color: #5b5b5c;
+font-size: 28px;
+font-weight: 500;
+text-align: center;
+letter-spacing: 4.2px;
+margin-bottom: 97px;
+}
+.photo-wrap img{
+    height: 400px;
+    margin: 5px;
+}
+.company h2{
+    margin-top: 315px;
+    text-align: center;
+    color: #000000;
+font-size: 32px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 7.2px;
+}
+.company p{
+    margin-top: 36px;
+    color: #5b5b5c;
+font-size: 28px;
+font-weight: 500;
+text-align: center;
+letter-spacing: 4.2px;
+}
+.viewphotos{
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+.viewphotos img{
+    height: auto;
+    max-width: 100%;
+}
+.vp1 {
+    margin-right: 34px;
+}
+.vp1 h3{
+    margin-top: 66px;
+    color: #000000;
+font-size: 19px;
+font-weight: 700;
+text-align: left;
+text-transform: uppercase;
+letter-spacing: 6px;
+}
+.vp1 p{
+    margin-top: 55px;
+color: #848484;
+font-size: 19px;
+font-weight: 400;
+text-align: left;
+letter-spacing: 3.8px;
+margin-bottom: 80px;
+}
+
+.vp2 h3{
+    margin-top: 66px;
+    color: #000000;
+font-size: 19px;
+font-weight: 700;
+text-align: left;
+text-transform: uppercase;
+letter-spacing: 6px;
+}
+.vp2 p{
+    margin-top: 55px;
+color: #848484;
+font-size: 19px;
+font-weight: 400;
+text-align: left;
+letter-spacing: 3.8px;
+margin-bottom: 80px;
+}
+.vp1 button{
+    width: 221px;
+height: 58px;
+background-color: #dddcdc;
+    padding: 23px 35px;
+    margin-top: 22px;
+    color: #000000;
+    border: white;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    cursor: pointer;
+    transition: ease-in .25s all;
+}
+.vp1 button:hover{
+    background-color: #7c7c7c;
+    color:rgb(0, 0, 0);
+}
+.vp2 button{
+    width: 221px;
+height: 58px;
+background-color: #dddcdc;
+    padding: 23px 35px;
+    margin-top: 22px;
+    color: #000000;
+    border: white;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    cursor: pointer;
+    transition: ease-in .25s all;
+}
+.vp2 button:hover{
+    background-color: #7c7c7c;
+    color:rgb(0, 0, 0);
+}
+.lastsec{
+    margin-top: 159px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.lt span{
+color: #c4c4c4;
+font-size: 22px;
+font-weight: 500;
+text-align: left;
+letter-spacing: 3.08px;
+}
+.lt h2{
+margin-top: 32px;
+color: #000000;
+font-size: 30px;
+font-weight: 500;
+text-align: left;
+text-transform: uppercase;
+letter-spacing: 4.2px;
+margin-bottom: 49px;
+}
+.lt p{
+    color: #5b5b5c;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 3.08px;
+    margin-bottom: 54px;
+}
+.booking{
+    margin-top: -51px;
+    padding: 100px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-wrap:flex ;
+    align-items: center;
+    justify-content:center ;
+}
+.book h2{
+color: #000000;
+font-size: 25px;
+font-weight: 500;
+line-height: 41px;
+text-transform: uppercase;
+letter-spacing: 4.2px;
+margin-right: 50px;
+}
+.book p{
+color: #5b5b5c;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: 2.52px;
+margin-right: 50px;
+}
+
+.booking button{
+    font-size: 13px;
+font-weight: 50px;
+letter-spacing: 3.08px;
+    width: 230px;
+height: 63px;
+background-color: #3a4047;
+    padding: 26px 35px;
+    color: #ffffff;
+    border: #3a4047;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: ease-in .25s all;
+}
+.booking button:hover{
+    background-color: #7c7c7c;
+    color:rgb(255, 255, 255);
+}
+input{
+    width: 260px;
+height: 60px;
+    margin-right: 20px;
+    background-color: transparent;
+    border: 2px solid #7a7a7a;
+color: #3a4047;
+font-size: 22px;
+font-weight: 400;
+letter-spacing: 3.08px;
+padding-left: 20px;
+}
+.podval{
+    text-align: center;
+    padding: 100px;
+}
+.menupodval a{
+    margin: 15px;
+    text-decoration: none ;
+width: 102px;
+height: 16px;
+color: #000000;
+font-size: 22px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 3.08px;
+}
+.menupodval p{
+    margin-top: 70px;
+color: #000000;
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 6.12px;
+}
+.menupodval2 p{
+    margin-top: 5px;
+color: #000000;
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 2.52px;
+}
