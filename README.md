@@ -1,1 +1,0 @@
-# lndpnrm.github.io
