@@ -1,0 +1,416 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+*{
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html{
+    overflow-x: hidden;
+}
+body {
+	line-height: 1;
+    overflow-x: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    background: url(grid.png) center;
+}
+button{
+    cursor: pointer;
+    outline: none;
+    border:none;
+    background-color: transparent;
+    transition: 0.2s ease-in-out;
+}
+.zvonok{
+    width: 207px;
+    height: 45px;
+    border: 2px solid #f82370;
+    padding: 11px 0px;
+    /* text */
+    color: #f53f4f;
+    font-family: Roboto;
+    font-size: 16px;
+    transition: 0.2s ease-in-out;
+    font-weight: 400;
+}
+.zvonok:hover{
+    color: white;
+    background-color: #f82370;
+}
+.more{
+    width: 270px;
+    height: 60px;
+    background-color: #ff4e2e;
+    color: #ffffff;
+    font-family: Tahoma;
+    font-size: 18px;
+    font-weight: 400;
+    border:solid 2px #ff4e2e;
+    display: block;
+}
+.more:hover{
+    color: white;
+    background-color: #ff6348;
+    border:solid 2px #ff6348;
+}
+.graytext{
+    color: #8993ad;
+    font-size: 20px;
+    font-weight: 400;
+}
+.headertext{
+    color: #262626;
+    font-size: 40px;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    height: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.navbarcontactsphone{
+    color: #1f1f24;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 30px;
+    transition: 0.2s ease-in-out;
+}
+.navbarcontactsphone:hover{
+    color: #f82370;
+    text-decoration: underline;
+}
+.header{
+    padding: 25px 0px;
+}
+.navbarlinks a {
+    margin-right: 34px;
+    font-size: 16px;
+    color: #1f1f24;
+    transition: 0.2s ease-in-out;
+}
+.navbarlinks a:hover{
+    color: #ff4e2e;
+    text-decoration: underline;
+}
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.heromain{
+    margin-top: 225px;
+    display: block;
+}
+h1.heroheader{
+    color: #1f1f24;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: -0.91px;
+}
+.herotext{
+    color: #8993ad;
+    font-size: 25px;
+    font-weight: 400;
+}
+span.herotext{
+    margin-top: 23px;
+    display: block;
+    margin-bottom: 46px;
+}
+.heroimage img{
+    display: inline-block;
+    width: 33vw;
+}
+.activity{
+    margin-top: 335px;
+}
+h2{
+    color: #262626;
+    font-size: 54px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.port{
+    text-align: center;
+}
+.what{
+    text-align: center;
+}
+.activitytext{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 94px;
+    text-align: center;
+    margin-right: 73px;
+}
+.activitytext p{
+    margin-top: 24px;
+    color: #8993ad;
+    font-size: 20px;
+    font-weight: 400;
+}
+.activity button{
+    display: block;
+    margin: 0px auto;
+    margin-top: 96px;
+}
+.portfolio h2{
+    margin-top: 201px;
+    margin-bottom: 103px;
+}
+.portblock{
+    margin-right: 30px;
+}
+.porttext {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.porttext p{
+    margin-top: 37px;
+    color: #8993ad;
+    font-size: 20px;
+    font-weight: 400;
+}
+.portfolio button{
+    display: block;
+    margin: 0px auto;
+    margin-top: 96px;
+}
+.priceblock{ 
+    display: inline-block;
+    transform: translateX(-12%);
+    margin-top: 102px;
+    width: 100vw;
+    height: 364px;
+    background-color: #ff4e2e;
+    padding: 85px;
+}
+.pricetext{
+    display: flex;
+    justify-content:center;
+    margin: 0px;
+    flex-direction:column;
+    align-items: center;
+}
+.pricetext p{
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: left;
+    width: 70%;
+}
+.pricetext h6{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 40px;
+    width: 70%;
+}
+.footersection{
+    margin-top: 87px;
+    margin-bottom: 81px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerlinks{
+    display: flex;
+    flex-direction:column;
+}
+.footerlinks a{
+    margin-bottom: 16px;
+    color: #8993ad;
+    font-size: 18px;
+    font-weight: 400;
+}
+.telmail{
+    display: flex;
+    flex-direction:column;
+}
+.telmail img{
+    max-width: 18px;
+    margin-right: 22px;
+}
+.call1{
+    display: inline-block;
+    margin-bottom: 35px;
+}
+.mail1{
+    display: inline-block;
+}
+.telmail a{
+    margin-bottom: 35px;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 400;
+}
+.callsocials{
+    display: flex;
+    flex-direction:column
+}
+.callsocials button{
+    width: 248px;
+    height: 45px;
+    margin-bottom: 35px;
+}
+.socials a{
+    display: inline-block;
+    margin-right: 30px;
+}
+.footer{
+    transform: translateX(-12%);
+    padding: 33px;
+    text-align: center;
+    height: 81px;
+    width: 100vw;
+    background-color: #31293c;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* breakpoints */
+
+/* header */
+
+@media screen and (max-width: 769px){
+    .navbar{
+        display: block;
+        text-align:center;
+    }
+    .navbarlinks{
+        margin-bottom: 20px;
+    }
+    .navbarcontacts button{
+        margin-top: 20px;
+    }
+.hero{
+    flex-wrap: wrap;
+}
+#portfolio{
+    text-align: center;
+}
+.heroimage img{
+    width: 100vw;
+}
+.heromain h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.activitytext{
+    display: flex;
+    flex-wrap: wrap;
+}
+.activitytext p{
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+h2{
+    font-size: 45px;
+}
+.porttext{
+    display: inline-block;
+}
+.porttext p{
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.pricetext p{
+    width: 150%;
+    font-size: 150%;
+}
+.pricetext h6{
+    width: 150%;
+    font-size: 80%;
+}
+.priceblock{
+    width:420px;
+}
+.footer{
+    width:420px;
+}
+.footersection{
+    display: block;
+    text-align: center;
+}
+.footersection button{
+    align-self: center;
+}
+.lnk{
+    display: inline-block;
+}
+.telmail a{
+    font-size: 20px;
+}
+.call1{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.mail1{
+    margin-bottom: 30px;
+}
+.container{
+    margin:0;
+    max-width: 100%;
+    padding:50px;
+    padding-bottom: 0px;
+}
+.activitytext{
+    margin-right: 0px;
+}
+.portblock{
+    margin-right: 0px;
+}
+}
